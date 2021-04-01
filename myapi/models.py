@@ -90,4 +90,10 @@ class CustomUser(AbstractUser):
         return self.is_admin
 
 
+@receiver(post_save,sender=CustomUser)
+def create_user_job(sender,instance,created,**kwargs):
+    if created:
+        job = Job.objects.create()
+        instance.listofjobs.add(job)
+        instance.save()
 
