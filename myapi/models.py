@@ -89,11 +89,17 @@ class CustomUser(AbstractUser):
     def has_perm(self,perm,obj=None):
         return self.is_admin
 
+    class Meta:
+        verbose_name = _('user')
+        verbose_name_plural = _('users')
+        ordering = ['-username']
 
-@receiver(post_save,sender=CustomUser)
-def create_user_job(sender,instance,created,**kwargs):
-    if created:
-        job = Job.objects.create()
-        instance.listofjobs.add(job)
-        instance.save()
+
+
+
+
+
+
+
+
 

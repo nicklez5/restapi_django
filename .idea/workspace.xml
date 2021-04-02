@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19e22e53-c135-4135-9d07-2b04afc187ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myapi/backends.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapi/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myapi/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapi/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapi/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapi/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapi/managers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myapi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapi/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myapi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapi/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
